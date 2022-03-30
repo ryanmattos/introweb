@@ -1,0 +1,40 @@
+nav {
+   margin-bottom: 2em;
+}
+
+main {
+   height: 100vh;
+   width: 100vw;
+
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+}
+
+.container { padding: 0 }
+
+.container.tile {
+   box-shadow: .25em 0.55em 1.7em 0 #33333345;
+   border-radius: .5em;
+}
+
+.container.tile:not(:first-child) {
+   margin-top: 2em;
+}
+
+.container.tile > .tile-header {
+   font-size: 1.4em;
+   padding: .75em 1em;
+   border-radius: .4em .4em 0 0;
+   font-weight: bold;
+   color: #fff;
+}
+
+.container.tile > .tile-body {
+   padding: 1.5em;
+}
+
+.container.tile > .tile-footer {
+   padding: 1em;
+   border-top: 1px solid #33333345;
+}
